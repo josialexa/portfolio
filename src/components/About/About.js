@@ -12,6 +12,7 @@ export default function About() {
             <div>I'm also a veteran of the US Army, and while I was in the Army, I learned to work in teams with others to accomplish goals.</div>
             <div>I feel like this has prepared me to work on a team with coders, and others to accomplish the goal of building, maintaining, or upgrading a website.</div> */}
             <div className='about-content-container'>
+                <h1 className='about-content-h1'>Hey there,</h1>
                 <p className='about-content'>
                     If you're here, that means you'd like to know more about who I am as a person.  Great!  Allow me to tell you a little about myself.
                     I grew up living in a myriad of different places, though I was born in Vermont.  That trend of moving around continued through adulthood, when I joined the Army at the age of 18.
