@@ -39,7 +39,7 @@ function App() {
                 <li className='nav-link'><Link id='home' to='/' className={selected == 'home' ? 'selected' : null} onClick={handleClick}>Home</Link></li>
                 <li className='nav-link'><Link id='about' to='/about' className={selected == 'about' ? 'selected' : null} onClick={handleClick}>About</Link></li>
                 <li className='nav-link'><Link id='skills' to='/skills' className={selected == 'skills' ? 'selected' : null} onClick={handleClick}>Skills</Link></li>
-                <li className='nav-link'>Projects</li>
+                <li className='nav-link'><Link id='projects' to='/projects' className={selected == 'projects' ? 'selected' : null} onClick={handleClick}>Projects</Link></li>
                 <li className='nav-link'><Link id='contact' to='/contact' className={selected == 'contact' ? 'selected' : null} onClick={handleClick}>Contact</Link></li>
               </ul>
             </div>

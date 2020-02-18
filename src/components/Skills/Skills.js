@@ -25,7 +25,7 @@ export default function Skills() {
                 <div className='skill-container'><img className='fab' src={restLogo} alt='Rest' /><span className='skill-name'>REST</span></div>
             </div>
             <div className='footnote'>
-                <span>*Many more to come as I continue to find and add badges!</span>
+                <span>*Many more to come as I continue to learn and improve!</span>
             </div>
         </div>
     )
