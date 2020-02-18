@@ -41,6 +41,10 @@
     color: #993399;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 #hero-registry {
     background-image: url('./heroRegistry.png');
 }
