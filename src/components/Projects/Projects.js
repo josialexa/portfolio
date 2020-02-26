@@ -26,7 +26,16 @@ export default class Projects extends Component {
                     </div>
                 </div>
                 <div className='project' id='digital-couch'>
-                    <div className='project-details'>Digital Couch coming soon...</div>
+                    <div className='project-details'>
+                        <p>
+                            Digital Couch is a hosted project that enables mental healthcare providers (or just 'providers') to connect with their clients online.
+                            It provides a suite of web based tools based on commonly used therapy tools, handouts, or worksheets for a client to work with, and allows a provider to see the progress made with these tools.
+                            It also gives tools to providers, like a client notes tool to act like a digital notepad, and the ability to access insurance information via a client dashboard.
+                        </p>
+                        <p><span className='bold'>Technologies: </span>Node, React, Redux, Express, Axios, React-Toastify, Cloudinary, Bcrypt, Massive, PostGres, Sass</p>
+                        <p><span className='bold'>Github: </span><a className='projects-link' rel='noopener noreferrer' target='_blank' href='https://github.com/team-digital-couch/digital-couch.git'>digital-couch</a></p>
+                        <p><span className='bold'>Site Link: </span><a className='projects-link' rel='noopener noreferrer' target='_blank' href='https://digitalcouch.xyz'>digitalcouch.xyz</a></p>
+                    </div>
                 </div>
             </div>
         )
